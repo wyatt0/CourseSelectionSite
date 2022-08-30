@@ -1,0 +1,85 @@
+body {
+  font-family: 'Maven Pro', sans-serif;
+}
+
+.sidebar {
+  margin-left: 3vw;
+  width: calc(20vw);
+  height: calc(100vh - 60px);
+  position: fixed;
+  border-radius: 0;
+  border-color: #dadfe1;
+  background-color: #dadfe1;
+}
+
+.col-12 {
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+  border-spacing: 0px;
+  border-left-color: #00000000;
+  border-right-color: #00000000;
+  border-top-color: #00000000;
+  background-color: #dadfe1;
+}
+
+.col {
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+  border-spacing: 0px;
+}
+
+.cartarea {
+  width: calc(25vw);
+  margin-left: calc(75vw);
+  margin-top: 0px;
+  height: calc(100vh - 60px);
+  position: fixed;
+  background-color: #dadfe1 !important;
+}
+
+.accordianHeader {
+  background-color: #dadfe1 !important;
+}
+
+.accordianItem {
+  border-radius: 0;
+  border-radius: 0 !important; 
+  border-left-color: #00000000;
+  border-right-color: #00000000;
+  border-top-color: #00000000;
+  border-bottom-color: #00000000;
+  background-color: #dadfe1 !important;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  text-align:center;
+}
+
+img {
+  position: relative;
+  height: 140px;
+  display:inline-block;
+  margin: 0 auto;
+  top: -30px;
+}
+
+.star {
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+}
+
+.star-disabled {
+  filter: grayscale(100%);
+}
+
+.rating {
+  font-weight: 700;
+}
